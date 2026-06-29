@@ -1,414 +1,1642 @@
 [
-    "files.json",
-    "Arc/Arc.exe",
-    "Arc/Config.json",
-    "Arc/Splash/Splash.png",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/chrome_elf.dll",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/d3dcompiler_43.dll",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/d3dcompiler_47.dll",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/icudtl.dat",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/libcef.dll",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/libEGL.dll",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/libGLESv2.dll",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/natives_blob.bin",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/snapshot_blob.bin",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/cef.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/cef_100_percent.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/cef_200_percent.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/cef_extensions.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/devtools_resources.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/am.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ar.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/bg.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/bn.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ca.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/cs.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/da.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/de.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/el.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/en-GB.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/en-US.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/es-419.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/es.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/et.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/fa.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/fi.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/fil.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/fr.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/gu.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/he.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/hi.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/hr.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/hu.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/id.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/it.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ja.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/kn.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ko.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/lt.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/lv.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ml.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/mr.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ms.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/nb.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/nl.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/pl.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/pt-BR.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/pt-PT.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ro.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ru.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sk.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sl.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sr.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sv.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sw.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ta.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/te.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/th.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/tr.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/uk.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/vi.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/zh-CN.pak",
-    "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/zh-TW.pak",
-    "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
-    "Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll",
-    "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
-    "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
-    "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
-    "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
-    "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
-    "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
-    "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
-    "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
-    "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
-    "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
-    "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
-    "Engine/Binaries/ThirdParty/Windows/DirectX/x64/WinPixEventRuntime.dll",
-    "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-console-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-console-l1-2-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-datetime-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-debug-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-errorhandling-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-file-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-file-l1-2-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-file-l2-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-handle-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-heap-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-interlocked-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-libraryloader-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-localization-l1-2-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-memory-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-namedpipe-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-processenvironment-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-processthreads-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-processthreads-l1-1-1.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-profile-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-rtlsupport-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-string-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-synch-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-synch-l1-2-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-sysinfo-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-timezone-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-core-util-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-conio-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-convert-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-environment-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-filesystem-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-heap-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-locale-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-math-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-multibyte-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-private-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-process-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-runtime-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-stdio-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-string-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-time-l1-1-0.dll",
-    "Engine/Binaries/Win64/api-ms-win-crt-utility-l1-1-0.dll",
-    "Engine/Binaries/Win64/concrt140.dll",
-    "Engine/Binaries/Win64/CrashReportClient.exe",
-    "Engine/Binaries/Win64/msvcp140.dll",
-    "Engine/Binaries/Win64/msvcp140_1.dll",
-    "Engine/Binaries/Win64/msvcp140_2.dll",
-    "Engine/Binaries/Win64/msvcp140_codecvt_ids.dll",
-    "Engine/Binaries/Win64/ucrtbase.dll",
-    "Engine/Binaries/Win64/UnrealCEFSubProcess.exe",
-    "Engine/Binaries/Win64/vccorlib140.dll",
-    "Engine/Binaries/Win64/vcruntime140.dll",
-    "Engine/Binaries/Win64/vcruntime140_1.dll",
-    "Engine/Binaries/Win64/X3DAudio1_7.dll",
-    "Engine/Binaries/Win64/XAPOFX1_5.dll",
-    "Engine/Binaries/Win64/XAudio2_7.dll",
-    "Engine/Binaries/Win64/xinput1_3.dll",
-    "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
-    "FortniteGame/Binaries/ThirdParty/Discord/Win64/discord-rpc.dll",
-    "FortniteGame/Binaries/ThirdParty/Nvidia/Win64/GfeSDK.dll",
-    "FortniteGame/Binaries/ThirdParty/SpeechGraphics/Win64/SG_Com.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-console-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-console-l1-2-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-datetime-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-debug-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-errorhandling-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-file-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-file-l1-2-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-file-l2-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-handle-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-heap-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-interlocked-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-libraryloader-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-localization-l1-2-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-memory-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-namedpipe-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-processenvironment-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-processthreads-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-processthreads-l1-1-1.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-profile-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-rtlsupport-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-string-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-synch-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-synch-l1-2-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-sysinfo-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-timezone-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-core-util-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-conio-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-convert-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-environment-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-filesystem-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-heap-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-locale-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-math-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-multibyte-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-private-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-process-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-runtime-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-stdio-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-string-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-time-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/api-ms-win-crt-utility-l1-1-0.dll",
-    "FortniteGame/Binaries/Win64/ClientSettings.Sav",
-    "FortniteGame/Binaries/Win64/concrt140.dll",
-    "FortniteGame/Binaries/Win64/dbghelp.dll",
-    "FortniteGame/Binaries/Win64/embree.2.14.0.dll",
-    "FortniteGame/Binaries/Win64/err.txt",
-    "FortniteGame/Binaries/Win64/FortniteClient-Win64-Shipping.exe",
-    "FortniteGame/Binaries/Win64/FortniteClient-Win64-Shipping_BE.exe",
-    "FortniteGame/Binaries/Win64/FortniteClient-Win64-Shipping_EAC.exe",
-    "FortniteGame/Binaries/Win64/FortniteLauncher.exe",
-    "FortniteGame/Binaries/Win64/imgui.ini",
-    "FortniteGame/Binaries/Win64/msvcp140.dll",
-    "FortniteGame/Binaries/Win64/msvcp140_1.dll",
-    "FortniteGame/Binaries/Win64/msvcp140_2.dll",
-    "FortniteGame/Binaries/Win64/msvcp140_codecvt_ids.dll",
-    "FortniteGame/Binaries/Win64/Objects.log",
-    "FortniteGame/Binaries/Win64/oo2core_5_win64.dll",
-    "FortniteGame/Binaries/Win64/ortp_x64.dll",
-    "FortniteGame/Binaries/Win64/out.txt",
-    "FortniteGame/Binaries/Win64/reboot.log",
-    "FortniteGame/Binaries/Win64/tbb.dll",
-    "FortniteGame/Binaries/Win64/tbbmalloc.dll",
-    "FortniteGame/Binaries/Win64/ucrtbase.dll",
-    "FortniteGame/Binaries/Win64/vccorlib140.dll",
-    "FortniteGame/Binaries/Win64/vcruntime140.dll",
-    "FortniteGame/Binaries/Win64/vcruntime140_1.dll",
-    "FortniteGame/Binaries/Win64/vivoxsdk_x64.dll",
-    "FortniteGame/Binaries/Win64/Weapons.txt",
-    "FortniteGame/Binaries/Win64/X3DAudio1_7.dll",
-    "FortniteGame/Binaries/Win64/XAPOFX1_5.dll",
-    "FortniteGame/Binaries/Win64/XAudio2_7.dll",
-    "FortniteGame/Binaries/Win64/xinput1_3.dll",
-    "FortniteGame/Binaries/Win64/BattlEye/BEClient_x64.dll",
-    "FortniteGame/Binaries/Win64/BattlEye/BELauncher.ini",
-    "FortniteGame/Binaries/Win64/BattlEye/BEService_x64.exe",
-    "FortniteGame/Binaries/Win64/BattlEye/EULA.txt",
-    "FortniteGame/Binaries/Win64/BattlEye/Install_BattlEye.bat",
-    "FortniteGame/Binaries/Win64/BattlEye/Uninstall_BattlEye.bat",
-    "FortniteGame/Binaries/Win64/BattlEye/Privacy/en-US.txt",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/EasyAntiCheat_Setup.exe",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/EasyAntiCheat_x64.dll",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/EasyAntiCheat_x86.dll",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Certificates/game.bin",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Certificates/game.cer",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Launcher/Settings.json",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Launcher/SplashScreen.png",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Licenses/Apache-2.0.txt",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Licenses/CCO-1.0.txt",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Licenses/Licenses.txt",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Licenses/MIT.txt",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/ar_sa.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/cs_cz.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/de_de.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/en_us.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/es_ar.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/es_es.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/fr_fr.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/it_it.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/ja_ja.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/ko_kr.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/nl_nl.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/pl_pl.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/pt_br.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/ru_ru.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/th_th.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/tr_tr.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/zh_cn.cfg",
-    "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/zh_tw.cfg",
-    "FortniteGame/Content/Legal/FortniteThirdPartySoftware.txt",
-    "FortniteGame/Content/Movies/HombaseReturn_OutpostIntro.mp4",
-    "FortniteGame/Content/Movies/HombaseReturn_OutpostIntro_en.mp4",
-    "FortniteGame/Content/Movies/Onboarding_Appended_Intro.mp4",
-    "FortniteGame/Content/Movies/Onboarding_Appended_Intro_VO.mp4",
-    "FortniteGame/Content/Movies/Onboarding_Flow_Appended_Intro_Movie_01_Loc.srt",
-    "FortniteGame/Content/Movies/SatelliteConnection.mp4",
-    "FortniteGame/Content/Movies/SatelliteConnection_en.mp4",
-    "FortniteGame/Content/Movies/WargamesVictory.mp4",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.de_DE.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.en_EN.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.es_ES.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.es_MX.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.fr_FR.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.it_IT.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.ja_JP.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.ko_KR.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.pl_PL.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.pt_BR.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.ru_RU.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.tr_TR.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.zh_CN.srt",
-    "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.zh_TW.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_China_Safe_Cinematic_SRT.zh_CN.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_China_Safe_Cinematic_SRT.zh_TW.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.ar_AR.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.de_DE.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.en_US.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.en_US_v2.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.es_ES.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.es_MX.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.fr_FR.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.it_IT.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.ja_JP.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.ko_KR.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.pl-PL.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.pl_PL.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.pt_BR.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.ru_RU.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.tr_TR.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.zh_CN.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.zh_TW.srt",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/Video/191008_FSTW_Console_EN_h264.mp4",
-    "FortniteGame/Content/Movies/Campaign/STW_Campaign/Video/191008_FSTW_Console_EN_h264_ChinaSafe.mp4",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN.it_IT.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN.ptBR.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN_DE.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN_JA.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN_pl-PL.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.esES.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.esMX.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.ru_RU.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.tr.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.zh_CN.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.zh_TW.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT._kor.srt",
-    "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT_FR.srt",
-    "FortniteGame/Content/Movies/Events/Into_The_Storm_2018.mp4",
-    "FortniteGame/Content/Movies/Events/Spring2018.mp4",
-    "FortniteGame/Content/Movies/Events/STW/LoveStorm_2019/FORT_PVE_LovesStormCine_022219_v15_24fps_CONSOLE.mp4",
-    "FortniteGame/Content/Movies/Events/STW/Yarr_2019/FORT_PVE_Yarrr_Console_032019.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Adrenaline_T01.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Adrenaline_T02.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Adrenaline_T03.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Adrenaline_T04.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Airstrike_T01.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Airstrike_T02.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Airstrike_T03.mp4",
-    "FortniteGame/Content/Movies/Gadgets/AirStrike_T04.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Banner_T01.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Banner_T02.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Banner_T03.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Mine_T01.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Mine_T02.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Mine_T03.mp4",
-    "FortniteGame/Content/Movies/Gadgets/SlowMo_T01.mp4",
-    "FortniteGame/Content/Movies/Gadgets/SlowMo_T02.mp4",
-    "FortniteGame/Content/Movies/Gadgets/SlowMo_T03.mp4",
-    "FortniteGame/Content/Movies/Gadgets/SupplyDrop_T01.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Teleporter_T01.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Teleporter_T02.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Teleporter_T03.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Teleporter_T04.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Turret_T01.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Turret_T02.mp4",
-    "FortniteGame/Content/Movies/Gadgets/Turret_T03.mp4",
-    "FortniteGame/Content/Movies/Gadgets/WeakpointVision.mp4",
-    "FortniteGame/Content/Movies/OnBoarding/Tutorial_Build.mp4",
-    "FortniteGame/Content/Movies/OnBoarding/Tutorial_Editing.mp4",
-    "FortniteGame/Content/Movies/SRT/FNBR_IntoTheStorm_SRT.en.srt",
-    "FortniteGame/Content/Movies/VictoryMovies/LaunchBalloon.mp4",
-    "FortniteGame/Content/Movies/VictoryMovies/LaunchRocket_v1.mp4",
-    "FortniteGame/Content/Movies/VictoryMovies/mission_failure_generic.mp4",
-    "FortniteGame/Content/Movies/VictoryMovies/mission_success_generic.mp4",
-    "FortniteGame/Content/Movies/VictoryMovies/OutpostVictory.mp4",
-    "FortniteGame/Content/Movies/VictoryMovies/RetrieveData_v1.mp4",
-    "FortniteGame/Content/Movies/VictoryMovies/SeverTether_v1.mp4",
-    "FortniteGame/Content/PackagedReplays/placeholder.txt",
-    "FortniteGame/Content/Paks/pakchunk0-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk0-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk1000-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk1000-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s1-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s1-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s10-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s10-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s11-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s11-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s12-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s12-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s13-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s13-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s14-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s14-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s15-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s15-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s16-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s16-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s17-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s17-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s2-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s2-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s3-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s3-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s4-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s4-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s5-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s5-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s6-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s6-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s7-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s7-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s8-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s8-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk10_s9-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk10_s9-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk11-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk11-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk11_s1-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk11_s1-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk2-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk2-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk5-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk5-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk7-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk7-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk8-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk8-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunk9-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunk9-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunkStellar-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunkStellar-WindowsClient.sig",
-    "FortniteGame/Content/Paks/pakchunkStellar_s1-WindowsClient.pak",
-    "FortniteGame/Content/Paks/pakchunkStellar_s1-WindowsClient.sig",
-    "FortniteGame/Content/Splash/Splash.bmp"
+    {
+        "path": "Arc/Arc.exe",
+        "size": 10031784
+    },
+    {
+        "path": "Arc/Splash/Splash.png",
+        "size": 239850
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/chrome_elf.dll",
+        "size": 560896
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/d3dcompiler_43.dll",
+        "size": 2113280
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/d3dcompiler_47.dll",
+        "size": 4486400
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/icudtl.dat",
+        "size": 10130560
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/libcef.dll",
+        "size": 98288384
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/libEGL.dll",
+        "size": 105728
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/libGLESv2.dll",
+        "size": 3935488
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/natives_blob.bin",
+        "size": 246209
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/snapshot_blob.bin",
+        "size": 1562112
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/cef.pak",
+        "size": 6003861
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/cef_100_percent.pak",
+        "size": 279905
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/cef_200_percent.pak",
+        "size": 386884
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/cef_extensions.pak",
+        "size": 3565138
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/devtools_resources.pak",
+        "size": 5183550
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/am.pak",
+        "size": 317735
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ar.pak",
+        "size": 314031
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/bg.pak",
+        "size": 366595
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/bn.pak",
+        "size": 478939
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ca.pak",
+        "size": 228122
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/cs.pak",
+        "size": 231572
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/da.pak",
+        "size": 207739
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/de.pak",
+        "size": 226211
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/el.pak",
+        "size": 402687
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/en-GB.pak",
+        "size": 186958
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/en-US.pak",
+        "size": 186991
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/es-419.pak",
+        "size": 224532
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/es.pak",
+        "size": 228808
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/et.pak",
+        "size": 202214
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/fa.pak",
+        "size": 321134
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/fi.pak",
+        "size": 211980
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/fil.pak",
+        "size": 232070
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/fr.pak",
+        "size": 243625
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/gu.pak",
+        "size": 451818
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/he.pak",
+        "size": 265463
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/hi.pak",
+        "size": 460810
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/hr.pak",
+        "size": 217428
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/hu.pak",
+        "size": 239083
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/id.pak",
+        "size": 201977
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/it.pak",
+        "size": 220397
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ja.pak",
+        "size": 270807
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/kn.pak",
+        "size": 519415
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ko.pak",
+        "size": 230850
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/lt.pak",
+        "size": 234416
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/lv.pak",
+        "size": 234204
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ml.pak",
+        "size": 567612
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/mr.pak",
+        "size": 456368
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ms.pak",
+        "size": 208619
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/nb.pak",
+        "size": 205047
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/nl.pak",
+        "size": 215699
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/pl.pak",
+        "size": 225555
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/pt-BR.pak",
+        "size": 221133
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/pt-PT.pak",
+        "size": 223472
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ro.pak",
+        "size": 229091
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ru.pak",
+        "size": 351003
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sk.pak",
+        "size": 237218
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sl.pak",
+        "size": 217919
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sr.pak",
+        "size": 341731
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sv.pak",
+        "size": 206145
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/sw.pak",
+        "size": 209319
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/ta.pak",
+        "size": 527387
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/te.pak",
+        "size": 503299
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/th.pak",
+        "size": 438108
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/tr.pak",
+        "size": 221774
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/uk.pak",
+        "size": 358245
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/vi.pak",
+        "size": 254300
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/zh-CN.pak",
+        "size": 190714
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/CEF3/Win64/Resources/locales/zh-TW.pak",
+        "size": 192079
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+        "size": 1377024
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll",
+        "size": 1824000
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+        "size": 62208
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFramework_x64.dll",
+        "size": 1057024
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Clothing_x64.dll",
+        "size": 1232128
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_Legacy_x64.dll",
+        "size": 3342592
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Common_x64.dll",
+        "size": 1612032
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3Cooking_x64.dll",
+        "size": 257792
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3_x64.dll",
+        "size": 2118400
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundation_x64.dll",
+        "size": 67840
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDK_x64.dll",
+        "size": 201984
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+        "size": 50944
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+        "size": 1727232
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/Windows/DirectX/x64/WinPixEventRuntime.dll",
+        "size": 41728
+    },
+    {
+        "path": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+        "size": 851200
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-console-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-console-l1-2-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-datetime-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-debug-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-errorhandling-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-file-l1-1-0.dll",
+        "size": 19712
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-file-l1-2-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-file-l2-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-handle-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-heap-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-interlocked-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-libraryloader-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-localization-l1-2-0.dll",
+        "size": 18688
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-memory-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-namedpipe-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-processenvironment-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-processthreads-l1-1-0.dll",
+        "size": 18176
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-processthreads-l1-1-1.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-profile-l1-1-0.dll",
+        "size": 15616
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-string-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-synch-l1-1-0.dll",
+        "size": 18176
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-synch-l1-2-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-sysinfo-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-timezone-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-core-util-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-conio-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-convert-l1-1-0.dll",
+        "size": 20224
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-environment-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-filesystem-l1-1-0.dll",
+        "size": 18176
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-heap-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-locale-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-math-l1-1-0.dll",
+        "size": 25344
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-multibyte-l1-1-0.dll",
+        "size": 24320
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-private-l1-1-0.dll",
+        "size": 68864
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-process-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-runtime-l1-1-0.dll",
+        "size": 20736
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-stdio-l1-1-0.dll",
+        "size": 22272
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-string-l1-1-0.dll",
+        "size": 22272
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-time-l1-1-0.dll",
+        "size": 18688
+    },
+    {
+        "path": "Engine/Binaries/Win64/api-ms-win-crt-utility-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "Engine/Binaries/Win64/concrt140.dll",
+        "size": 329984
+    },
+    {
+        "path": "Engine/Binaries/Win64/CrashReportClient.exe",
+        "size": 18102016
+    },
+    {
+        "path": "Engine/Binaries/Win64/msvcp140.dll",
+        "size": 614656
+    },
+    {
+        "path": "Engine/Binaries/Win64/msvcp140_1.dll",
+        "size": 27904
+    },
+    {
+        "path": "Engine/Binaries/Win64/msvcp140_2.dll",
+        "size": 199936
+    },
+    {
+        "path": "Engine/Binaries/Win64/msvcp140_codecvt_ids.dll",
+        "size": 23808
+    },
+    {
+        "path": "Engine/Binaries/Win64/ucrtbase.dll",
+        "size": 1021696
+    },
+    {
+        "path": "Engine/Binaries/Win64/UnrealCEFSubProcess.exe",
+        "size": 3706624
+    },
+    {
+        "path": "Engine/Binaries/Win64/vccorlib140.dll",
+        "size": 362752
+    },
+    {
+        "path": "Engine/Binaries/Win64/vcruntime140.dll",
+        "size": 86272
+    },
+    {
+        "path": "Engine/Binaries/Win64/vcruntime140_1.dll",
+        "size": 40704
+    },
+    {
+        "path": "Engine/Binaries/Win64/X3DAudio1_7.dll",
+        "size": 32000
+    },
+    {
+        "path": "Engine/Binaries/Win64/XAPOFX1_5.dll",
+        "size": 84736
+    },
+    {
+        "path": "Engine/Binaries/Win64/XAudio2_7.dll",
+        "size": 525568
+    },
+    {
+        "path": "Engine/Binaries/Win64/xinput1_3.dll",
+        "size": 110848
+    },
+    {
+        "path": "Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak",
+        "size": 46982024
+    },
+    {
+        "path": "FortniteGame/Binaries/ThirdParty/Discord/Win64/discord-rpc.dll",
+        "size": 401152
+    },
+    {
+        "path": "FortniteGame/Binaries/ThirdParty/Nvidia/Win64/GfeSDK.dll",
+        "size": 4237056
+    },
+    {
+        "path": "FortniteGame/Binaries/ThirdParty/SpeechGraphics/Win64/SG_Com.dll",
+        "size": 3333888
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-console-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-console-l1-2-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-datetime-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-debug-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-errorhandling-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-file-l1-1-0.dll",
+        "size": 19712
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-file-l1-2-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-file-l2-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-handle-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-heap-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-interlocked-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-libraryloader-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-localization-l1-2-0.dll",
+        "size": 18688
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-memory-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-namedpipe-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-processenvironment-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-processthreads-l1-1-0.dll",
+        "size": 18176
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-processthreads-l1-1-1.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-profile-l1-1-0.dll",
+        "size": 15616
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-string-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-synch-l1-1-0.dll",
+        "size": 18176
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-synch-l1-2-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-sysinfo-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-timezone-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-core-util-l1-1-0.dll",
+        "size": 16128
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-conio-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-convert-l1-1-0.dll",
+        "size": 20224
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-environment-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-filesystem-l1-1-0.dll",
+        "size": 18176
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-heap-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-locale-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-math-l1-1-0.dll",
+        "size": 25344
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-multibyte-l1-1-0.dll",
+        "size": 24320
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-private-l1-1-0.dll",
+        "size": 68864
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-process-l1-1-0.dll",
+        "size": 17152
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-runtime-l1-1-0.dll",
+        "size": 20736
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-stdio-l1-1-0.dll",
+        "size": 22272
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-string-l1-1-0.dll",
+        "size": 22272
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-time-l1-1-0.dll",
+        "size": 18688
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/api-ms-win-crt-utility-l1-1-0.dll",
+        "size": 16640
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/ClientSettings.Sav",
+        "size": 2999
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/concrt140.dll",
+        "size": 329984
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/dbghelp.dll",
+        "size": 1377024
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/embree.2.14.0.dll",
+        "size": 20334336
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/err.txt",
+        "size": 0
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/FortniteClient-Win64-Shipping.exe",
+        "size": 159640832
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/FortniteClient-Win64-Shipping_BE.exe",
+        "size": 759040
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/FortniteClient-Win64-Shipping_EAC.exe",
+        "size": 1092352
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/FortniteLauncher.exe",
+        "size": 319744
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/imgui.ini",
+        "size": 1123
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/msvcp140.dll",
+        "size": 614656
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/msvcp140_1.dll",
+        "size": 27904
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/msvcp140_2.dll",
+        "size": 199936
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/msvcp140_codecvt_ids.dll",
+        "size": 23808
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/Objects.log",
+        "size": 120205417
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/oo2core_5_win64.dll",
+        "size": 948480
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/ortp_x64.dll",
+        "size": 234752
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/out.txt",
+        "size": 242872
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/reboot.log",
+        "size": 127242
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/tbb.dll",
+        "size": 399104
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/tbbmalloc.dll",
+        "size": 226560
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/ucrtbase.dll",
+        "size": 1021696
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/vccorlib140.dll",
+        "size": 362752
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/vcruntime140.dll",
+        "size": 86272
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/vcruntime140_1.dll",
+        "size": 40704
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/vivoxsdk_x64.dll",
+        "size": 5338880
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/Weapons.txt",
+        "size": 864747
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/X3DAudio1_7.dll",
+        "size": 32000
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/XAPOFX1_5.dll",
+        "size": 84736
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/XAudio2_7.dll",
+        "size": 525568
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/xinput1_3.dll",
+        "size": 110848
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/BattlEye/BEClient_x64.dll",
+        "size": 5232136
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/BattlEye/BELauncher.ini",
+        "size": 126
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/BattlEye/BEService_x64.exe",
+        "size": 8567960
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/BattlEye/EULA.txt",
+        "size": 2758
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/BattlEye/Install_BattlEye.bat",
+        "size": 79
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/BattlEye/Uninstall_BattlEye.bat",
+        "size": 79
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/BattlEye/Privacy/en-US.txt",
+        "size": 1323
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/EasyAntiCheat_Setup.exe",
+        "size": 811120
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/EasyAntiCheat_x64.dll",
+        "size": 798320
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/EasyAntiCheat_x86.dll",
+        "size": 679024
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Certificates/game.bin",
+        "size": 73621
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Certificates/game.cer",
+        "size": 1337
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Launcher/Settings.json",
+        "size": 355
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Launcher/SplashScreen.png",
+        "size": 206473
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Licenses/Apache-2.0.txt",
+        "size": 11560
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Licenses/CCO-1.0.txt",
+        "size": 997
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Licenses/Licenses.txt",
+        "size": 17581
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Licenses/MIT.txt",
+        "size": 1093
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/ar_sa.cfg",
+        "size": 7435
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/cs_cz.cfg",
+        "size": 6708
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/de_de.cfg",
+        "size": 6546
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/en_us.cfg",
+        "size": 6155
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/es_ar.cfg",
+        "size": 6648
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/es_es.cfg",
+        "size": 6698
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/fr_fr.cfg",
+        "size": 6714
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/it_it.cfg",
+        "size": 6308
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/ja_ja.cfg",
+        "size": 7755
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/ko_kr.cfg",
+        "size": 6940
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/nl_nl.cfg",
+        "size": 6306
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/pl_pl.cfg",
+        "size": 6703
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/pt_br.cfg",
+        "size": 6555
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/ru_ru.cfg",
+        "size": 8763
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/th_th.cfg",
+        "size": 10944
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/tr_tr.cfg",
+        "size": 6196
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/zh_cn.cfg",
+        "size": 5670
+    },
+    {
+        "path": "FortniteGame/Binaries/Win64/EasyAntiCheat/Localization/zh_tw.cfg",
+        "size": 5653
+    },
+    {
+        "path": "FortniteGame/Content/Legal/FortniteThirdPartySoftware.txt",
+        "size": 37055
+    },
+    {
+        "path": "FortniteGame/Content/Movies/HombaseReturn_OutpostIntro.mp4",
+        "size": 129654609
+    },
+    {
+        "path": "FortniteGame/Content/Movies/HombaseReturn_OutpostIntro_en.mp4",
+        "size": 4532714
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Onboarding_Appended_Intro.mp4",
+        "size": 248602130
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Onboarding_Appended_Intro_VO.mp4",
+        "size": 8515853
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Onboarding_Flow_Appended_Intro_Movie_01_Loc.srt",
+        "size": 2743
+    },
+    {
+        "path": "FortniteGame/Content/Movies/SatelliteConnection.mp4",
+        "size": 47505173
+    },
+    {
+        "path": "FortniteGame/Content/Movies/SatelliteConnection_en.mp4",
+        "size": 1601970
+    },
+    {
+        "path": "FortniteGame/Content/Movies/WargamesVictory.mp4",
+        "size": 13491880
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.de_DE.srt",
+        "size": 137
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.en_EN.srt",
+        "size": 133
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.es_ES.srt",
+        "size": 133
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.es_MX.srt",
+        "size": 133
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.fr_FR.srt",
+        "size": 131
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.it_IT.srt",
+        "size": 132
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.ja_JP.srt",
+        "size": 127
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.ko_KR.srt",
+        "size": 137
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.pl_PL.srt",
+        "size": 134
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.pt_BR.srt",
+        "size": 131
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.ru_RU.srt",
+        "size": 159
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.tr_TR.srt",
+        "size": 131
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.zh_CN.srt",
+        "size": 124
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/FORT_TheAdventureContinues_SRT.zh_TW.srt",
+        "size": 124
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_China_Safe_Cinematic_SRT.zh_CN.srt",
+        "size": 2189
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_China_Safe_Cinematic_SRT.zh_TW.srt",
+        "size": 2189
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.ar_AR.srt",
+        "size": 2399
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.de_DE.srt",
+        "size": 2148
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.en_US.srt",
+        "size": 2043
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.en_US_v2.srt",
+        "size": 2307
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.es_ES.srt",
+        "size": 2278
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.es_MX.srt",
+        "size": 2200
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.fr_FR.srt",
+        "size": 2040
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.it_IT.srt",
+        "size": 2273
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.ja_JP.srt",
+        "size": 2346
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.ko_KR.srt",
+        "size": 2239
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.pl-PL.srt",
+        "size": 2441
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.pl_PL.srt",
+        "size": 2002
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.pt_BR.srt",
+        "size": 2116
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.ru_RU.srt",
+        "size": 2550
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.tr_TR.srt",
+        "size": 2113
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.zh_CN.srt",
+        "size": 2275
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/SRTSource/FSTW_Cinematic_SRT.zh_TW.srt",
+        "size": 2275
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/Video/191008_FSTW_Console_EN_h264.mp4",
+        "size": 170404858
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Campaign/STW_Campaign/Video/191008_FSTW_Console_EN_h264_ChinaSafe.mp4",
+        "size": 121124209
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN.it_IT.srt",
+        "size": 203
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN.ptBR.srt",
+        "size": 199
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN.srt",
+        "size": 198
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN_DE.srt",
+        "size": 214
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN_JA.srt",
+        "size": 255
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.en_EN_pl-PL.srt",
+        "size": 214
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.esES.srt",
+        "size": 213
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.esMX.srt",
+        "size": 212
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.ru_RU.srt",
+        "size": 285
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.tr.srt",
+        "size": 180
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.zh_CN.srt",
+        "size": 176
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT.zh_TW.srt",
+        "size": 176
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT._kor.srt",
+        "size": 217
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/FORT_Winter2018_Cine_SRT_FR.srt",
+        "size": 223
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/Into_The_Storm_2018.mp4",
+        "size": 15765104
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/Spring2018.mp4",
+        "size": 12856063
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/STW/LoveStorm_2019/FORT_PVE_LovesStormCine_022219_v15_24fps_CONSOLE.mp4",
+        "size": 14750632
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Events/STW/Yarr_2019/FORT_PVE_Yarrr_Console_032019.mp4",
+        "size": 17058248
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Adrenaline_T01.mp4",
+        "size": 7171135
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Adrenaline_T02.mp4",
+        "size": 5339010
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Adrenaline_T03.mp4",
+        "size": 5958291
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Adrenaline_T04.mp4",
+        "size": 11461311
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Airstrike_T01.mp4",
+        "size": 11179572
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Airstrike_T02.mp4",
+        "size": 10951330
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Airstrike_T03.mp4",
+        "size": 13270805
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/AirStrike_T04.mp4",
+        "size": 14349186
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Banner_T01.mp4",
+        "size": 7724457
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Banner_T02.mp4",
+        "size": 4971730
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Banner_T03.mp4",
+        "size": 8539965
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Mine_T01.mp4",
+        "size": 6993448
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Mine_T02.mp4",
+        "size": 6331972
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Mine_T03.mp4",
+        "size": 14648602
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/SlowMo_T01.mp4",
+        "size": 17294278
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/SlowMo_T02.mp4",
+        "size": 9254323
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/SlowMo_T03.mp4",
+        "size": 11174471
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/SupplyDrop_T01.mp4",
+        "size": 10306333
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Teleporter_T01.mp4",
+        "size": 5023777
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Teleporter_T02.mp4",
+        "size": 6171763
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Teleporter_T03.mp4",
+        "size": 6233445
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Teleporter_T04.mp4",
+        "size": 8428440
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Turret_T01.mp4",
+        "size": 7106795
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Turret_T02.mp4",
+        "size": 9274729
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/Turret_T03.mp4",
+        "size": 4635829
+    },
+    {
+        "path": "FortniteGame/Content/Movies/Gadgets/WeakpointVision.mp4",
+        "size": 16594008
+    },
+    {
+        "path": "FortniteGame/Content/Movies/OnBoarding/Tutorial_Build.mp4",
+        "size": 20124104
+    },
+    {
+        "path": "FortniteGame/Content/Movies/OnBoarding/Tutorial_Editing.mp4",
+        "size": 14607742
+    },
+    {
+        "path": "FortniteGame/Content/Movies/SRT/FNBR_IntoTheStorm_SRT.en.srt",
+        "size": 127
+    },
+    {
+        "path": "FortniteGame/Content/Movies/VictoryMovies/LaunchBalloon.mp4",
+        "size": 10518428
+    },
+    {
+        "path": "FortniteGame/Content/Movies/VictoryMovies/LaunchRocket_v1.mp4",
+        "size": 16640632
+    },
+    {
+        "path": "FortniteGame/Content/Movies/VictoryMovies/mission_failure_generic.mp4",
+        "size": 4450133
+    },
+    {
+        "path": "FortniteGame/Content/Movies/VictoryMovies/mission_success_generic.mp4",
+        "size": 6778500
+    },
+    {
+        "path": "FortniteGame/Content/Movies/VictoryMovies/OutpostVictory.mp4",
+        "size": 8547386
+    },
+    {
+        "path": "FortniteGame/Content/Movies/VictoryMovies/RetrieveData_v1.mp4",
+        "size": 8152144
+    },
+    {
+        "path": "FortniteGame/Content/Movies/VictoryMovies/SeverTether_v1.mp4",
+        "size": 10458397
+    },
+    {
+        "path": "FortniteGame/Content/PackagedReplays/placeholder.txt",
+        "size": 0
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk0-WindowsClient.pak",
+        "size": 755533606
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk0-WindowsClient.sig",
+        "size": 46644
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10-WindowsClient.pak",
+        "size": 4302438797
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10-WindowsClient.sig",
+        "size": 263132
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk1000-WindowsClient.pak",
+        "size": 442394551
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk1000-WindowsClient.sig",
+        "size": 27532
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s1-WindowsClient.pak",
+        "size": 4312719521
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s1-WindowsClient.sig",
+        "size": 263756
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s10-WindowsClient.pak",
+        "size": 4318803602
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s10-WindowsClient.sig",
+        "size": 264128
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s11-WindowsClient.pak",
+        "size": 4313686802
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s11-WindowsClient.sig",
+        "size": 263816
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s12-WindowsClient.pak",
+        "size": 4314185524
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s12-WindowsClient.sig",
+        "size": 263848
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s13-WindowsClient.pak",
+        "size": 4310609969
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s13-WindowsClient.sig",
+        "size": 263628
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s14-WindowsClient.pak",
+        "size": 4346407189
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s14-WindowsClient.sig",
+        "size": 265812
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s15-WindowsClient.pak",
+        "size": 4457197551
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s15-WindowsClient.sig",
+        "size": 272576
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s16-WindowsClient.pak",
+        "size": 4335893022
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s16-WindowsClient.sig",
+        "size": 265172
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s17-WindowsClient.pak",
+        "size": 4099221960
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s17-WindowsClient.sig",
+        "size": 250728
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s2-WindowsClient.pak",
+        "size": 4378467163
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s2-WindowsClient.sig",
+        "size": 267772
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s3-WindowsClient.pak",
+        "size": 4303741345
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s3-WindowsClient.sig",
+        "size": 263208
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s4-WindowsClient.pak",
+        "size": 4263173393
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s4-WindowsClient.sig",
+        "size": 260732
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s5-WindowsClient.pak",
+        "size": 4303801694
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s5-WindowsClient.sig",
+        "size": 263212
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s6-WindowsClient.pak",
+        "size": 4303997428
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s6-WindowsClient.sig",
+        "size": 263224
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s7-WindowsClient.pak",
+        "size": 4303211074
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s7-WindowsClient.sig",
+        "size": 263176
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s8-WindowsClient.pak",
+        "size": 4298556253
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s8-WindowsClient.sig",
+        "size": 262892
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s9-WindowsClient.pak",
+        "size": 4302758696
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk10_s9-WindowsClient.sig",
+        "size": 263148
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk11-WindowsClient.pak",
+        "size": 4313547936
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk11-WindowsClient.sig",
+        "size": 263808
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk11_s1-WindowsClient.pak",
+        "size": 1868861438
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk11_s1-WindowsClient.sig",
+        "size": 114596
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk2-WindowsClient.pak",
+        "size": 679021559
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk2-WindowsClient.sig",
+        "size": 41976
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk5-WindowsClient.pak",
+        "size": 636019626
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk5-WindowsClient.sig",
+        "size": 39348
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk7-WindowsClient.pak",
+        "size": 696608279
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk7-WindowsClient.sig",
+        "size": 43048
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk8-WindowsClient.pak",
+        "size": 686795159
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk8-WindowsClient.sig",
+        "size": 42448
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk9-WindowsClient.pak",
+        "size": 15006418
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunk9-WindowsClient.sig",
+        "size": 1444
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunkStellar-WindowsClient.pak",
+        "size": 1312335423
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunkStellar-WindowsClient.sig",
+        "size": 264128
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunkStellar_s1-WindowsClient.pak",
+        "size": 76874512
+    },
+    {
+        "path": "FortniteGame/Content/Paks/pakchunkStellar_s1-WindowsClient.sig",
+        "size": 46644
+    },
+    {
+        "path": "FortniteGame/Content/Splash/Splash.bmp",
+        "size": 239850
+    }
 ]
